@@ -1,0 +1,57 @@
+## General
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.a
+
+# Compiled python
+*.pyc
+
+# Editor temporaries
+*.swp
+*~
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse Project settings
+*.*project
+.settings
+
+# Netbeans Project settings
+nbproject/*
+
+# OSX dir files
+.DS_Store
+
+## Data
+
+data/*
+models/*
+
+# build and bins
+build
+.build_debug/*
+.build_release/*
+*.bin
+
+# Generated documentation
+docs/*
+doxygen/*
+
+# Misc files
+scripts/bin/*
+*.err
+*.log
+*.out
+*.txt
+*.tar
+*.tar.gz
